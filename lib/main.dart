@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:google_map/screens/coordinates_to_address.dart';
+import 'package:google_map/screens/current_location.dart';
 import 'package:google_map/screens/home_screens.dart';
 
 void main() {
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomeScreen(),
+      home: const CurrentLocation(),
     );
   }
 }
